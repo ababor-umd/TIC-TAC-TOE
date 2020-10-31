@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color:  white;
+    font-size:  65px;
+}
+
+h1:hover{
+   color: yellowgreen;
+}
+
+td {
+	border:  2px solid white;
+	height:  200px;
+	width:  200px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  140px;
+    cursor: pointer;
+    color: white;
+}
+
+
+table {
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+	margin-left: -240px;
+    top: 50px;
+    margin-top: 90px;
+}
+
+#display_turn {
+    color: white;
+    text-align:  center;
+    margin-top: 150px;
+    font-size: 50px;
+    margin-left: 120px;
+}
+
+
+table tr:first-child td {
+	border-top: 0;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+}
+
+table tr td:first-child {
+	border-left: 0;
+}
+
+table tr td:last-child {
+	border-right: 0;
+}
+
+input{
+    color: white;
+}
+
+.radioButton{
+    color: white;
+    font-size:  40px;;
+}
+
+
+#displayTime {
+    color: white;
+    font-size:  40px;;
+    margin-top: -10px;
+
+}
+
+footer {
+    color: yellow;
+    font-size: 100%;
+    text-align:  right;
+}

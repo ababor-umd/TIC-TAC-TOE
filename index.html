@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>   Tic-Tac-Toe</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+
+    <h1>Tic-Tac-Toe | One of Best Brain Games | Tic-Tac-Toe</h1>
+
+
+    <form action="/action_page.php">
+        <p> <span  class="radioButton">Please select the type: </span> </p>
+        <input type="radio" id="Player" name="cool" value="Player" onclick="playerPlayer()">
+        <label for="Player"><span class="radioButton">Player V Player</span></label><br>
+        <input type="radio" id="Computer" name="cool" value="Computer" onclick="playerComputer()">
+        <label for="Computer"><span  class="radioButton">Player V Computer</span></label><br>
+        <br>  
+        <br>
+        <p> <span  class="radioButton">Want to restart? </span> </p>
+        <input type="radio" id="restart" name="cool" value="restart" onclick="reStart()">
+        <label for="restart"><span class="radioButton">Yes</span></label><br>
+        <br>  
+        <br>
+        
+        <div id = "playAgainButton">
+        <p id = "none"> <span  class="radioButton" > Play Again?</span> </p>
+        <input type="radio" id="playAgain" name="cool" value="playAgain" onclick="playAgainGame()">
+        <label for="playAgain"><span class="radioButton" id = "playAgainOption">Yes</span></label><br>
+        <br>  
+        </div>
+        
+      </form>
+
+     
+     <div id = "displayTime">
+        
+    </div>
+
+
+    <table>
+        <tr>
+            <td id = "1" onclick="nextMove(this)"></td>
+            <td id = "2" onclick="nextMove(this)"></td>
+            <td id = "3" onclick="nextMove(this)"></td>
+        </tr>
+
+        <tr>
+            <td id = "4" onclick="nextMove(this)"></td>
+            <td id = "5" onclick="nextMove(this)"></td>
+            <td id = "6" onclick="nextMove(this)"></td>
+        </tr>
+
+        <tr>
+            <td id = "7" onclick="nextMove(this)"></td>
+            <td id = "8" onclick="nextMove(this)"></td>
+            <td id = "9" onclick="nextMove(this)"></td>
+        </tr>
+    </table>
+
+    <div id = "display_turn">
+        Whose turn it is?
+    </div>
+
+   
+    <script src="script.js"></script>
+
+    <footer>
+        &#169; Abdullah M Babor 2020
+    </footer>
+
+</body>
+</html>
